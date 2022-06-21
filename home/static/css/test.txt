@@ -1,0 +1,108 @@
+/* .profileImage {
+    width: 60px;
+    height: 40px;
+    border-radius: 60%;
+    background: purple;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    margin: auto;
+   
+  }
+  .navtext:hover {
+    background-color: gray !important;
+  } */
+  <style>
+    /* .personal button{
+      border-radius: 40px;
+    } */
+    .personal .btn:focus{
+            outline: none;
+            box-shadow: none;
+      }
+    .personal .btn:hover{
+            color:white ;
+      }
+    .personal .dropstart-toggle::after {
+            content: none;
+      }
+    .personal ul li{
+            align-items: center;
+            border-top:0px solid rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: left;
+            list-style: none;
+            padding: 10px 0px;
+      }
+    .personal ul li a{
+            display: inline-block;
+            color: #555;
+            font-size: 14px;
+            font-weight: 600;
+            padding-left: 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: 0.5s;
+      }
+      .personal ul li:hover a{
+        color:#ff00ff;
+      }
+      /* .personal .dropdown-menu{
+        background-color: red;
+        width: 50%;
+       
+      } */
+  </style>
+
+  nav section
+  <!-- <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle name" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    
+  </button>
+  <ul class="dropdown-menu dropstart" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">View Profile</a></li>
+    <li><a class="dropdown-item" href="#">Language</a></li>
+    <li><a class="dropdown-item" href="#">Logout</a></li>
+  </ul>
+</div> -->
+
+search and satellite sections
+ <!-- <section class="S4">
+    <div class="container mt-3   ">
+      <h1 class=" ps-md-4  text-center">Search for available village information</h1>
+      <div class="container">
+        <div class="row search-height d-flex justify-content-center align-items-center">
+            <div class="col-md-8">
+              <div class="search">
+                <input type="text" class="form-control rounded-pill" placeholder="Search for available village data...."> 
+                <i class="fa fa-search"></i> 
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>        
+  </section> -->
+  <!-- <section class="S5">
+    <div class="container-fluid   bg-image satellite-bg" style="height: 90vh;" >
+      <div class="pt-lg-5 pt-sm-5"></div>
+      <div class="pt-lg-5 pt-sm-5"></div>
+      <div class="pt-lg-5 pt-sm-4">
+        <h1 class=" pt-lg-5  fontsize text-center">Check out available satellite data</h1>
+      </div>
+        
+        <div class="text-center pt-5">
+          <a href="" class="btn btn-outline-brown text-light   btn-lg">View Now</a>
+        </div>
+        
+      </div>
+      
+    </div> -->
+
+    <!-- <div class="container-fluid mt-3 bg-image text-center" style="background:  linear-gradient(to right, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)),url('img/satellite.jpg') no-repeat center ; width: 100vw   ; height: 130vh;">
+      <h1 class="mt-7 fontsize">Check out available satellite data</h1>
+      <button class="btn btn-brown  mt-4 btn-lg" type="button">View Now!</button>
+      
+    </div> -->
+  <!-- </section> -->
